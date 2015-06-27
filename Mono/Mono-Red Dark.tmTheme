@@ -159,7 +159,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F3D651</string>
+				<string>#DBBB7B</string>
 			</dict>
 		</dict>
 
@@ -174,12 +174,12 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#666</string>
+				<string>#fff</string>
 			</dict>
 		</dict>
 
 		<!-- Variable -->
-		<dict>
+<!-- 		<dict>
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
@@ -187,9 +187,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777</string>
+				<string>#555555</string>
 			</dict>
-		</dict>
+		</dict> -->
 
 		<!-- Tag name -->
 		<dict>
@@ -255,7 +255,7 @@
 				<key>foreground</key>
 				<string>#555</string>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>italic bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -280,17 +280,30 @@
 				<string>#999</string>
 			</dict>
 		</dict>
+		<!-- Pseudo Elements -->
 		<dict>
 			<key>name</key>
-			<string>CSS/SASS/SCSS Pseudo Elements</string>
+			<string>CSS: pseudo-element</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element</string>
+			<string>entity.other.attribute-name.pseudo-element,</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: pseudo-class</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>CSS/SASS/SCSS Property Names</string>
@@ -343,6 +356,8 @@
 			<string>constant.other.color.rgb-value.css, constant.other.rgb-value.sass, constant.other.color.rgb-value.scss</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
 				<key>foreground</key>
 				<string>#666</string>
 			</dict>
@@ -357,9 +372,20 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DDB700</string>
+				<string>#DBBB7B</string>
 			</dict>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Outline</string>
+            <key>scope</key>
+            <string>sublimelinter.outline.illegal</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
 			<string>SublimeLinter Gutter Mark</string>
@@ -379,7 +405,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D02000</string>
+				<string>#FFA900</string>
 			</dict>
 		</dict>
 	</array>
