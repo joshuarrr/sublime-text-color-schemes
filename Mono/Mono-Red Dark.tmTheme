@@ -15,7 +15,7 @@
 			<dict>
 				<!-- Background -->
 				<key>background</key>
-				<string>#111111</string>
+				<string>#111</string>
 				<!-- Foreground -->
 				<key>foreground</key>
 				<string>#e5e5e5</string>
@@ -34,7 +34,7 @@
                 <!-- Guide - Active -->
                 <key>activeGuide</key>
                 <string>#333</string>
-                <!-- Guide - Stacl -->
+                <!-- Guide - Stack -->
 				<key>stackGuide</key>
 				<string>#222</string>
 				<!-- Invisibles -->
@@ -94,7 +94,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#777</string>
+				<string>#999</string>
+				<key>fontStyle</key>
+				<string>normal</string>
 			</dict>
 		</dict>
 
@@ -109,7 +111,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#555</string>
+				<string>#666</string>
 			</dict>
 		</dict>
 
@@ -171,15 +173,13 @@
 			<string>entity.name</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
-				<string>#fff</string>
+				<string>#888</string>
 			</dict>
 		</dict>
 
-		<!-- Variable -->
-<!-- 		<dict>
+		<!-- Variables -->
+		<dict>
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
@@ -187,9 +187,11 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#555555</string>
+				<string>#888</string>
+				<key>fontStyle</key>
+				<string>normal</string>
 			</dict>
-		</dict> -->
+		</dict>
 
 		<!-- Tag name -->
 		<dict>
@@ -234,6 +236,7 @@
 				<string>#333</string>
 			</dict>
 		</dict>
+		<!-- SCSS Variables -->
 		<dict>
 			<key>name</key>
 			<string>SASS/SCSS Variables</string>
@@ -245,6 +248,8 @@
 				<string>#666</string>
 			</dict>
 		</dict>
+
+		<!-- @charset, @import, @include @etc -->
 		<dict>
 			<key>name</key>
 			<string>CSS/SASS/SCSS Keywords</string>
@@ -253,11 +258,13 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#555</string>
+				<string>#999</string>
 				<key>fontStyle</key>
-				<string>italic bold</string>
+				<string>italic</string>
 			</dict>
 		</dict>
+
+		<!-- Functions -->
 		<dict>
 			<key>name</key>
 			<string>CSS/SASS/SCSS Functions</string>
@@ -269,6 +276,8 @@
 				<string>#777</string>
 			</dict>
 		</dict>
+
+		<!-- Elements -->
 		<dict>
 			<key>name</key>
 			<string>CSS/SASS/SCSS Elements</string>
@@ -276,10 +285,13 @@
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
 				<key>foreground</key>
 				<string>#999</string>
 			</dict>
 		</dict>
+
 		<!-- Pseudo Elements -->
 		<dict>
 			<key>name</key>
@@ -304,6 +316,7 @@
 			</dict>
 		</dict>
 
+		<!-- Property Names -->
 		<dict>
 			<key>name</key>
 			<string>CSS/SASS/SCSS Property Names</string>
@@ -316,6 +329,8 @@
 				<string>#444</string>
 			</dict>
 		</dict>
+
+		<!-- Units -->
 		<dict>
 			<key>name</key>
 			<string>CSS/SASS/SCSS Units</string>
@@ -324,9 +339,11 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#666</string>
+				<string>#999</string>
 			</dict>
 		</dict>
+
+		<!-- Parameters -->
 		<dict>
 			<key>name</key>
 			<string>CSS/SASS/SCSS Parameters</string>
@@ -338,6 +355,8 @@
 				<string>#666</string>
 			</dict>
 		</dict>
+
+		<!-- Constant Language -->
 		<dict>
 			<key>name</key>
 			<string>CSS/SASS/SCSS Constant Language</string>
@@ -349,6 +368,8 @@
 				<string>#666</string>
 			</dict>
 		</dict>
+
+		<!-- Color Values -->
 		<dict>
 			<key>name</key>
 			<string>CSS/SASS/SCSS Color Values</string>
@@ -359,7 +380,7 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#666</string>
+				<string>#999</string>
 			</dict>
 		</dict>
 
